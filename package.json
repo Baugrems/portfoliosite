@@ -1,0 +1,19 @@
+{
+  "name": "portfoliosite",
+  "version": "1.0.0",
+  "description": "Portfoio Site for Shane Copenhagen",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baugrems/portfoliosite.git"
+  },
+  "author": "Shane Copenhagen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baugrems/portfoliosite/issues"
+  },
+  "homepage": "https://github.com/Baugrems/portfoliosite#readme"
+}
