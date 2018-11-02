@@ -27,6 +27,6 @@ app.get("*", function(req,res){
 
 
 // listner for server start
-app.listen("8080", "127.0.0.1", function(){
-    console.log("Server has started");
+app.listen(process.env.PORT, process.env.IP, function(){
+    console.log("Portfolio Server has started");
 });
