@@ -7,9 +7,22 @@ app.set("view engine", "ejs");
 
 app.use(bodyParser.urlencoded({extended: true}));
 
-
+// Routes for site. Likely refactor later into separate file.
 app.get("/", function(req,res){
 	res.render("home")
+})
+
+app.get("/about", function(req,res){
+	res.render("about")
+})
+
+app.get("/projects", function(req,res){
+	res.render("projects")
+})
+
+// Catch all for page not found
+app.get("*", function(req,res){
+	res.render("404")
 })
 
 
